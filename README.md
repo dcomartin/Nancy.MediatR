@@ -15,7 +15,7 @@ Add Hook for handling exceptions thrown from from Request Handler
 Add hook for specifying response
 
 # Example
-<code>
+```
 public class InventoryModule : NancyModule
 {
     public InventoryModule(IMediator mediator)
@@ -47,4 +47,4 @@ public class InventoryModule : NancyModule
             }));
      }
 }
-</code>
+```
